@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Of Legends Best Champions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            border: 2px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 500px;
+            height: 220px;
+            margin-right: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .lane {
+            margin-bottom: 20px;
+        }
+
+        .lane h2 {
+            text-align: center;
+            margin: 0 0 20px 0;
+        }
+
+        .champion {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 2px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .champion img {
+            width: 200px;
+            height: 200px;
+            margin-right: 10px;
+        }
+
+        .champion .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .champion .info .name {
+            font-weight: bold;
+        }
+
+        .champion .info .stats {
+            color: gray;
+        }
+
+        .champion .link {
+            text-align: center;
+            padding: 10px;
+            border: 2px solid black;
+            text-decoration: none;
+            color: black;
+        }
+        table {
+          width: 100%;
+          border-collapse: collapse;
+        }
+        th, td {
+          border: 1px solid #655b5b;
+          padding: 8px;
+          text-align : left;
+        }
+        th {
+          background-color: #f2f2f2;
+          text-align: center;
+        }
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+        tr:hover {
+          background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/Users/Wild/Desktop/Mission DATA/LOL.jpeg" alt="Header Image">
+            <img src="/Users/Wild/Desktop/Mission DATA/Faker_with_text.jpeg" alt = "Header Image">
+            <h1>League Of Legends Best Champions</h1>
+        </div>
+
+        <div class="lane">
+            <h2>TOP LANE</h2>
+            <div class="champion">
+                <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3da35104857a57eb001ac2ced3f41ec430de8e2e-496x560.jpg?auto=format&fit=fill&q=80&w=496" alt="Champion Image">
+                <div class="info">
+                    <div class="name">Tryndamere</div>
+                    <div class="stats">Statistiques</div>
+                    <table id="variables-table">
+                        <thead>
+                          <tr>
+                            <th>BASE HEALTH</th>
+                            <th>BASE MANA</th>
+                            <th>BASE ARMOR</th>
+                            <th>BASE ATTACK DAMAGE</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                              <tr>
+                                  <td>625</td>
+                                  <td>100</td>
+                                  <td>33</td>
+                                  <td>72</td>
+                              </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a href="https://www.leagueofgraphs.com/fr/champions/builds/tryndamere" class="link">More about Tryndamere</a>
+            </div>
+        </div>
+
+        <div class="lane">
+            <h2>JUNGLE</h2>
+            <div class="champion">
+                <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ce638264ec40c028d3355852192d8feeb969880e-496x560.jpg?auto=format&fit=fill&q=80&w=496" alt="Champion Image">
+                <div class="info">
+                    <div class="name">Lee Sin</div>
+                    <div class="stats">Statistiques</div>
+                    <table id="variables-table">
+                        <thead>
+                          <tr>
+                            <th>BASE HEALTH</th>
+                            <th>BASE MANA</th>
+                            <th>BASE ARMOR</th>
+                            <th>BASE ATTACK DAMAGE</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                              <tr>	
+                                  <td>575</td>
+                                  <td>200</td>
+                                  <td>33</td>
+                                  <td>70</td>
+                              </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a href="https://www.leagueofgraphs.com/fr/champions/builds/leesin" class="link">More about Lee Sin</a>
+            </div>
+        </div>
+        
+        <div class="lane">
+            <h2>MID LANE</h2>
+            <div class="champion">
+                <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b25f6325e2f6f0e35945b2d14edd792044e95beb-496x560.jpg?auto=format&fit=fill&q=80&w=496" alt="Champion Image">
+                <div class="info">
+                    <div class="name">Talon</div>
+                    <div class="stats">Statistiques</div>
+                    <table id="variables-table">
+                        <thead>
+                          <tr>
+                            <th>BASE HEALTH</th>
+                            <th>BASE MANA</th>
+                            <th>BASE ARMOR</th>
+                            <th>BASE ATTACK DAMAGE</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                              <tr>
+                                  <td>588</td>
+                                  <td>370</td>
+                                  <td>30</td>
+                                  <td>68</td>
+                              </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a href="https://www.leagueofgraphs.com/fr/champions/builds/talon" class="link">More about Talon</a>
+            </div>
+        </div>
+
+        <div class="lane">
+            <h2>ADC</h2>
+            <div class="champion">
+                <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/516bc1d22979ed9a290321b3474363875a3c7b10-496x560.jpg?auto=format&fit=fill&q=80&w=496" alt="Champion Image">
+                <div class="info">
+                    <div class="name">Kai'Sa</div>
+                    <div class="stats">Statistiques</div>
+                    <table id="variables-table">
+                        <thead>
+                          <tr>
+                            <th>BASE HEALTH</th>
+                            <th>BASE MANA</th>
+                            <th>BASE ARMOR</th>
+                            <th>BASE ATTACK DAMAGE</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                              <tr>
+                                  <td>600</td>
+                                  <td>344</td>
+                                  <td>33</td>
+                                  <td>62</td>
+                              </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a href="https://www.leagueofgraphs.com/fr/champions/builds/kaisa" class="link">More about Kai'Sa</a>
+            </div>
+        </div>
+
+        <div class="lane">
+            <h2>SUPPORT</h2>
+            <div class="champion">
+                <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9ed7b9525c01d12ee744bbf3274803ce3f5299b2-496x560.jpg?auto=format&fit=fill&q=80&w=496" alt="Champion Image">
+                <div class="info">
+                    <div class="name">Tahm_kench</div>
+                    <div class="stats">Statistiques</div>
+                    <table id="variables-table">
+                        <thead>
+                          <tr>
+                            <th>BASE HEALTH</th>
+                            <th>BASE MANA</th>
+                            <th>BASE ARMOR</th>
+                            <th>BASE ATTACK DAMAGE</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                              <tr>
+                                  <td>600</td>
+                                  <td>325</td>
+                                  <td>47</td>
+                                  <td>56</td>
+                              </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a href="https://www.leagueofgraphs.com/fr/champions/builds/tahmkench" class="link">More about Tahm_Kench</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
